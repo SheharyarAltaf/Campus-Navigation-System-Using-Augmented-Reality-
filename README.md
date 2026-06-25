@@ -186,4 +186,3 @@ This project was developed as a Final Year Project at UET Lahore. All rights res
 
 ---
 
-<p align="center">Made with ❤️ at University of Engineering and Technology, Lahore</p>
