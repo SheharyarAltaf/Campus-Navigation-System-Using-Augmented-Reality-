@@ -112,7 +112,7 @@ The system operates as a **hybrid engine** — switching between markerless SLAM
 ## 🏗️ System Architecture
 
 <p align="center">
-  <img src="App%20Screenshots/YOUR_ARCHITECTURE_IMAGE.png" width="700"/>
+  <img src="App%20Screenshots/Navigation _render_pipeline_(my photo).png" width="700"/>
 </p>
 Geofenced zones at building entrances trigger seamless mode switching
 ```
