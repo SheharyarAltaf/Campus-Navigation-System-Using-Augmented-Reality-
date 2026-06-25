@@ -6,6 +6,7 @@ Final Year Project - Campus Navigation System using Augmented Reality . In this 
 **Final Year Project (2022–2026) — University of Engineering and Technology, Lahore**
 
 Supervised by: **Dr. Irfan Yousuf**
+
 ---
 
 ## 📌 Overview
@@ -56,30 +57,24 @@ The system operates as a **hybrid engine** — switching between markerless SLAM
 ## 📱 App Screenshots
 
 ### Home Screen
-<!-- Add screenshot: Home_doc_.png -->
 | Home Screen | Select Destination | Localizing |
 |---|---|---|
-| App%20Screenshots/Home(doc).png | ((App Screenshots/Select_Destination(doc).png) | ![Localizing]((App Screenshots/Localization.png) |
+| ![Home](App%20Screenshots/Home(doc).png) | ![Select Destination](App%20Screenshots/Select_Destination(doc).png) | ![Localizing](App%20Screenshots/Localization.png) |
 
 ### Indoor Navigation
-<!-- Add screenshots of indoor AR arrows and path -->
 | Indoor Path | Destination Reached |
 |---|---|
-| ![Indoor Path](screenshots/indoor_path.png) | ![Arrived](screenshots/arrived.png) |
+| ![Indoor Path](App%20Screenshots/PathShowing(doc).png) | ![Arrived](App%20Screenshots/Destination_Reach(Doc).png) |
 
 ### Outdoor Navigation
-<!-- Add screenshots of outdoor AR arrows and destination pin -->
 | Outdoor Path | Destination Pin |
 |---|---|
-| ![Outdoor Path](screenshots/outdoor_path.png) | ![Destination Pin](screenshots/outdoor_pin.png) |
+| ![Outdoor Path](App%20Screenshots/OutdoorShowingpath.jfif) | ![Destination Pin](App%20Screenshots/Outdoor_DestinationPin.jpg) |
 
-### Other Screens
-<!-- Add remaining screenshots -->
-| Department Selection | Reach Doc |
-|---|---|
-| ![Pop-up Options](screenshots/popup_options.png) | ![Reach Doc](screenshots/reach_doc.png) |
-
-> 📸 *Drop your screenshot images into a `/screenshots` folder and update the paths above.*
+### Department Selection
+| Pop-up Options |
+|---|
+| ![Pop-up Options](App%20Screenshots/Pop-up-Options.png) |
 
 ---
 
