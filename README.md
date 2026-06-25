@@ -1,2 +1,189 @@
 # Campus-Navigation-System-Using-Augmented-Reality-
 Final Year Project - Campus Navigation System using Augmented Reality . In this Project my Navigation System provide indoor and Outdoor Navigation of whole campus using 3D arrows and prefabs on real time camera feed.
+
+> A Hybrid Augmented Reality Navigation Solution for Complex Educational Environments
+
+**Final Year Project (2022–2026) — University of Engineering and Technology, Lahore**
+
+Supervised by: **Dr. Irfan Yousuf**
+---
+
+## 📌 Overview
+
+**Campus AR Nav** is a mobile application that provides real-time indoor and outdoor navigation across a university campus using Augmented Reality. Instead of traditional 2D maps, it projects 3D directional arrows and prefabs directly onto the live camera feed, guiding users through corridors, stairwells, labs, and open campus grounds seamlessly.
+
+The system operates as a **hybrid engine** — switching between markerless SLAM-based indoor localization and GPS-based outdoor navigation — without requiring the user to restart or reconfigure anything.
+
+---
+
+## 🎯 Project Objectives
+
+- **Hybrid Engine** — Smooth transition between indoor and outdoor navigation modes
+- **GPS-Independent Indoor Navigation** — Uses spatial anchors and SLAM to map complex corridors
+- **Optimal Pathfinding** — Real-time shortest path calculation using the A\* algorithm
+- **Immersive AR UI** — 3D arrows and prefabs rendered flat on the floor plane in the real world
+- **Dynamic Rerouting** — Instantly recalculates the path if the user deviates
+
+---
+
+## ✨ Features
+
+### 🏫 Indoor Navigation
+- Markerless localization powered by the **MultiSet SDK** — no QR codes needed
+- Scans the environment's visual features for instant spatial recognition
+- Navigates users to specific classrooms, labs, faculty offices, and washrooms
+- Supports **floor-to-floor navigation**, understanding altitude and stairwell transitions
+- AR arrows anchored to the real environment guide users naturally through corridors
+- Custom **NavMesh** generation defines walkable surfaces and avoids obstacles
+
+### 🌳 Outdoor Navigation
+- GPS-based navigation integrated via the **Mapbox API**
+- Covers departments, hostels, admin block, library, and open grounds
+- AR waypoints remain stable even in bright sunlight
+- Geofenced transition zones at building entrances enable seamless indoor ↔ outdoor handoff
+
+### 🔁 Dynamic Rerouting
+- Deviation detection triggers instant path recalculation from the user's new position
+- Failsafe logic prevents users from getting stuck in dead ends
+
+### 🗺️ Pathfinding Logic
+- **A\* (A-Star) Algorithm** for guaranteed shortest route
+- Campus mapped as an interconnected node graph (corridors, doors, stairs)
+- Heuristic computation finds optimal paths in milliseconds
+
+---
+
+## 📱 App Screenshots
+
+### Home Screen
+<!-- Add screenshot: Home_doc_.png -->
+| Home Screen | Select Destination | Localizing |
+|---|---|---|
+| ![Home](screenshots/home.png) | ![Select Destination](screenshots/select_destination.png) | ![Localizing](screenshots/localizing.png) |
+
+### Indoor Navigation
+<!-- Add screenshots of indoor AR arrows and path -->
+| Indoor Path | Destination Reached |
+|---|---|
+| ![Indoor Path](screenshots/indoor_path.png) | ![Arrived](screenshots/arrived.png) |
+
+### Outdoor Navigation
+<!-- Add screenshots of outdoor AR arrows and destination pin -->
+| Outdoor Path | Destination Pin |
+|---|---|
+| ![Outdoor Path](screenshots/outdoor_path.png) | ![Destination Pin](screenshots/outdoor_pin.png) |
+
+### Other Screens
+<!-- Add remaining screenshots -->
+| Department Selection | Reach Doc |
+|---|---|
+| ![Pop-up Options](screenshots/popup_options.png) | ![Reach Doc](screenshots/reach_doc.png) |
+
+> 📸 *Drop your screenshot images into a `/screenshots` folder and update the paths above.*
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Platform | Unity (Android) |
+| AR Framework | MultiSet SDK (Markerless SLAM) |
+| Outdoor Maps | Mapbox API |
+| Pathfinding | A\* Algorithm |
+| Language | C# |
+| 3D Assets | Custom Unity Prefabs & NavMesh |
+
+---
+
+## 🏗️ System Architecture
+
+```
+User Opens App
+     │
+     ├──► Indoor Mode
+     │        │
+     │        ├── MultiSet SDK scans environment
+     │        ├── SLAM localizes user position
+     │        ├── A* calculates shortest path via node graph
+     │        ├── NavMesh defines walkable surfaces
+     │        └── AR arrows rendered on floor plane
+     │
+     └──► Outdoor Mode
+              │
+              ├── GPS coordinates via Mapbox API
+              ├── Polyline route overlay
+              └── AR waypoints anchored in open space
+
+Geofenced zones at building entrances trigger seamless mode switching
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Android device with ARCore support
+- Android 8.0 (Oreo) or higher
+- Camera permission enabled
+
+### Installation
+
+**Option 1 — APK Download**
+
+Download the latest APK directly from the project portfolio:
+
+🔗 [ar-nav-uet.vercel.app](https://ar-nav-uet.vercel.app)
+
+**Option 2 — Build from Source**
+
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/Campus-Navigation-System-Using-Augmented-Reality.git
+
+# Open the project in Unity (recommended: Unity 2022 LTS or later)
+# Configure your Mapbox API key in Assets/Resources/MapboxConfig
+# Build for Android via File > Build Settings
+```
+
+---
+
+## 📂 Project Structure
+
+```
+Campus-Navigation-System/
+├── Assets/
+│   ├── Scripts/          # C# navigation, pathfinding, AR logic
+│   ├── Prefabs/          # 3D arrows, waypoints, avatar prefabs
+│   ├── Scenes/           # Indoor and Outdoor Unity scenes
+│   └── Resources/        # Config files, NavMesh data
+├── Packages/             # Unity package dependencies
+├── ProjectSettings/
+└── README.md
+```
+
+---
+
+## 🔮 Future Work
+
+- 🎙️ **Voice Assist** — Audio turn-by-turn directions
+- ☁️ **Cloud Maps** — Remotely updatable campus maps without app reinstall
+- ♿ **Accessibility Mode** — Wheelchair-friendly routing and larger AR indicators
+
+---
+
+## 🌐 Portfolio & Resources
+
+Visit the project hub for the APK download, user guides, and team portfolio:
+
+🔗 **[ar-nav-uet.vercel.app](https://ar-nav-uet.vercel.app)**
+
+---
+
+## 📄 License
+
+This project was developed as a Final Year Project at UET Lahore. All rights reserved by the team members.
+
+---
+
+<p align="center">Made with ❤️ at University of Engineering and Technology, Lahore</p>
