@@ -59,7 +59,7 @@ The system operates as a **hybrid engine** — switching between markerless SLAM
 <!-- Add screenshot: Home_doc_.png -->
 | Home Screen | Select Destination | Localizing |
 |---|---|---|
-| (App Screenshots/Home(doc).png) | ((App Screenshots/Select_Destination(doc).png) | ![Localizing]((App Screenshots/Localization.png) |
+| App%20Screenshots/Home(doc).png | ((App Screenshots/Select_Destination(doc).png) | ![Localizing]((App Screenshots/Localization.png) |
 
 ### Indoor Navigation
 <!-- Add screenshots of indoor AR arrows and path -->
