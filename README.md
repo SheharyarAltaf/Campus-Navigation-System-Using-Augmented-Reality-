@@ -111,23 +111,9 @@ The system operates as a **hybrid engine** — switching between markerless SLAM
 
 ## 🏗️ System Architecture
 
-```
-User Opens App
-     │
-     ├──► Indoor Mode
-     │        │
-     │        ├── MultiSet SDK scans environment
-     │        ├── SLAM localizes user position
-     │        ├── A* calculates shortest path via node graph
-     │        ├── NavMesh defines walkable surfaces
-     │        └── AR arrows rendered on floor plane
-     │
-     └──► Outdoor Mode
-              │
-              ├── GPS coordinates via Mapbox API
-              ├── Polyline route overlay
-              └── AR waypoints anchored in open space
-
+<p align="center">
+  <img src="App%20Screenshots/YOUR_ARCHITECTURE_IMAGE.png" width="700"/>
+</p>
 Geofenced zones at building entrances trigger seamless mode switching
 ```
 
