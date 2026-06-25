@@ -71,10 +71,10 @@ The system operates as a **hybrid engine** — switching between markerless SLAM
 |---|---|
 | ![Outdoor Path](App%20Screenshots/OutdoorShowingpath.jfif) | ![Destination Pin](App%20Screenshots/Outdoor_DestinationPin.jpg) |
 
-### Department Selection
-| Pop-up Options |
-|---|
-| ![Pop-up Options](App%20Screenshots/Pop-up-Options.png) |
+### Other Screens
+| Department Selection | Pop-up Options |
+|---|---|
+| ![Pop-up Options](App%20Screenshots/Pop-up-Options.png) | ![Pop-up Options](App%20Screenshots/Pop-up-Options.png) |
 
 ---
 
