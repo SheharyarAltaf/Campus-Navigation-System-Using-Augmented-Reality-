@@ -57,26 +57,44 @@ The system operates as a **hybrid engine** — switching between markerless SLAM
 ## 📱 App Screenshots
 
 ### Home Screen
-| Home Screen | Select Destination | Localizing |
-|---|---|---|
-| ![Home](App%20Screenshots/Home(doc).png) | ![Select Destination](App%20Screenshots/Select_Destination(doc).png) | ![Localizing](App%20Screenshots/Localization.png) |
+<p align="center">
+  <img src="App%20Screenshots/Home(doc).png" width="250"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="App%20Screenshots/Select_Destination(doc).png" width="250"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="App%20Screenshots/Localization.png" width="250"/>
+</p>
+<p align="center">
+  <em>Home Screen &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Select Destination &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Localizing</em>
+</p>
 
 ### Indoor Navigation
-| Indoor Path | Destination Reached |
-|---|---|
-| ![Indoor Path](App%20Screenshots/PathShowing(doc).png) | ![Arrived](App%20Screenshots/Destination_Reach(Doc).png) |
+<p align="center">
+  <img src="App%20Screenshots/PathShowing(doc).png" width="250"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="App%20Screenshots/Destination_Reach(Doc).png" width="250"/>
+</p>
+<p align="center">
+  <em>Indoor Path &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Destination Reached</em>
+</p>
 
 ### Outdoor Navigation
-| Outdoor Path | Destination Pin |
-|---|---|
-| ![Outdoor Path](App%20Screenshots/OutdoorShowingpath.jfif) | ![Destination Pin](App%20Screenshots/Outdoor_DestinationPin.jpg) |
+<p align="center">
+  <img src="App%20Screenshots/OutdoorShowingpath.jfif" width="250"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="App%20Screenshots/Outdoor_DestinationPin.jpg" width="250"/>
+</p>
+<p align="center">
+  <em>Outdoor Path &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Destination Pin</em>
+</p>
 
 ### Other Screens
-| Department Selection | Pop-up Options |
-|---|---|
-| ![Pop-up Options](App%20Screenshots/Pop-up-Options.png) | ![Pop-up Options](App%20Screenshots/Pop-up-Options.png) |
-
----
+<p align="center">
+  <img src="App%20Screenshots/Pop-up-Options.png" width="250"/>
+</p>
+<p align="center">
+  <em>Department Selection</em>
+</p>
 
 ## 🛠️ Tech Stack
 
